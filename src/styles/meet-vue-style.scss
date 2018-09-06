@@ -1,0 +1,66 @@
+ $green: #42b983;
+ $red:#C03639;
+ $yellow:#FEC171;
+
+ .el-step__head.is-success,
+ .el-step__title.is-success {
+   color: #9bc7f5;
+   border-color: #9bc7f5;
+ }
+
+ .el-dialog__body {
+   line-height: inherit;
+ }
+.active_step {
+  border-color : $green;
+  .el-step__head{
+    .el-step__icon-inner{
+      color : $green;
+    }
+  }
+  .el-step__main{
+    .el-step__title,
+    .el-step__description {
+      color : $green;
+    }
+  }
+}
+.reject_step {
+  border-color: $red;
+  .el-step__head {
+    .el-step__icon-inner {
+      color: $red;
+    }
+  }
+
+  .el-step__main {
+    .el-step__title,
+    .el-step__description {
+      color: $red;
+    }
+  }
+}
+.recall_step{
+  border-color:  $yellow;
+  .el-step__head {
+    .el-step__icon-inner {
+      color:  $yellow;
+    }
+  }
+
+  .el-step__main {
+    .el-step__title,
+    .el-step__description {
+      color:  $yellow;
+    }
+  }
+}
+.editor-custom-btn-container{
+  display: none;
+}
+.tinymce-container.editor-container{
+  min-width: 650px;
+}
+.pass_way .el-input__inner {
+  border: none;
+}
